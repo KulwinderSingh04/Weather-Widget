@@ -7,7 +7,7 @@ export default function SearchBox({update}) {
 
     let [city, setCity] = useState("");
     let [error, setError] = useState(false);
-    const GEO_URL = "http://api.openweathermap.org/geo/1.0/direct";
+    const GEO_URL = "https://api.openweathermap.org/geo/1.0/direct";
     const API_URL = "https://api.openweathermap.org/data/2.5/weather";
     // const API_KEY = "eede01232845d097e6c9d78ff3d8896f";
     // console.log(apiKey);
